@@ -1,0 +1,40 @@
+.swiper-slide{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mask {
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+    opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.rounded:hover .mask {
+    opacity: 1;
+    visibility: visible;
+}
+
+.img-fluid {
+    border-radius: 10px;
+    box-shadow: -8px -8px 10px rgba(252, 214, 214, 0.493), 8px -8px 10px rgba(253, 204, 204, 0.555);
+    margin-top: 20px;
+}
+
+.rating {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view {
+    width: 390px;
+    height: 360px;
+}
+
+.btn-danger {
+    margin-left: 100px;
+}

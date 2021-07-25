@@ -1,0 +1,182 @@
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+  
+  header {
+    background-color: rgba(255, 255, 255, 0.966);
+   /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  ul {
+    list-style-type: none;
+    z-index: 1000 !important;
+  }
+  
+  li {
+    position: relative;
+  }
+  
+  ul a,
+  ul a:hover {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    padding: 10px 30px;
+    display: block;
+  }
+  
+  .inner-menu {
+    padding: 20px;
+    background-color: rgb(255, 248, 248);
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+  }
+  
+  li:hover .inner-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+    border-top: 3px solid rgb(255, 0, 0);
+    box-shadow:  -10px -0px 20px #bdbcbc98,
+             10px 10px 20px #c5c5c598;
+  }
+  
+  .inner-menu a,
+  .inner-menu a:hover {
+    color: rgb(0, 0, 0);
+  }
+
+/* .sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+} */
+
+  .btn {
+      margin-right: 50px;
+      padding-left: 37px;
+      padding-right: 37px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      font-size: 15px;
+  }
+
+  .p-left {
+      color: black;
+  }
+  .p-left:hover {
+      text-decoration: none;
+      color: red;
+  }
+
+  .text-center {
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+  form {
+    position: absolute;
+    margin-left: 80px;
+   margin-right: 80px;
+   border-radius: 8px;
+   box-shadow:  -13px 0px 23px #d3d3d3af,
+   13px 0px 23px #d1d1d185;
+   margin-bottom: 20px;
+  }
+ 
+  .space-footer {
+    background-color: #0D152E;
+  }
+
+  .icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #101C3D;
+  }
+
+  .color-p {
+    color: #597497;
+  }
+
+  .hover{
+    width: 100%;
+  }
+  .hover:hover {
+    text-decoration: none;
+    list-style-type: none;
+    color: #285cec;
+  }
+
+  .masofa {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+  .mr-2 {
+    width: 100%;
+    padding-bottom: 20px;
+    color: #597497;
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .mr-2:hover {
+    text-decoration: none;
+    color: #597497;
+  }
+
+  .bg-color {
+    background-color: #101C3D;
+  }
+
+  .display {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.mb-3 {
+  font-size: 13px;
+}
+
+.rang {
+  color: #416FF4;
+}
+
+.hajm {
+  width: 40px;
+  height: 40px;
+  padding-bottom: 0;
+  border-radius: 100%;
+  background-color: #0D152E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  .menu {
+    display: none !important;
+  }
+}
+
+.form-control {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.form {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+/* .letter-spacing {
+  letter-spacing: 2px;
+} */
